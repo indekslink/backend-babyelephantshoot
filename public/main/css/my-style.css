@@ -1,0 +1,36 @@
+.cursor-pointer {
+    cursor: pointer !important;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+    background-image: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.5)
+    );
+    position: relative;
+}
+table th,
+td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.form-control:focus {
+    border-color: #e10414 !important;
+    box-shadow: 0 0 0 0.25rem #e9b7bc !important;
+}
+
+.card-bg-icon {
+    position: relative;
+}
+.card-bg-icon svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 5rem;
+    opacity: 0.3;
+}
+
+.bg-white {
+    background-color: white;
+}
